@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{% block title %} {% endblock %}</title>
+	</head>
+	<body>
+		<h1>Curriculum Daniel Muzquiz</h1>
+		
+		
+		<img src = '{% static "imagenes/curriculumDanielMuzquiz.jpg" %}'/>
+
+		<br/>
+		{% block content%}
+
+		{% endblock %}
+		
+	</body>
+</html>
